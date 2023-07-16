@@ -1,7 +1,49 @@
+/* Blue striped background */
+body {
+  margin: 0px;
+}
+
+.patterns {
+  width: 100vw;
+  height: 100vw;
+}
+
+.pt1 {
+  background-size: 50px 50px;
+  background-color: #0ae;
+  background-image: -webkit-linear-gradient(
+    rgba(255, 255, 255, 0.2) 50%,
+    transparent 50%,
+    transparent
+  );
+  background-image: -moz-linear-gradient(
+    rgba(255, 255, 255, 0.2) 50%,
+    transparent 50%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    rgba(255, 255, 255, 0.2) 50%,
+    transparent 50%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    rgba(255, 255, 255, 0.2) 50%,
+    transparent 50%,
+    transparent
+  );
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2) 50%,
+    transparent 50%,
+    transparent
+  );
+}
+/* end of blue striped background */
+
 .AD-Project {
   display: flex;
-  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
-  
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+
   .title {
     display: flex;
     align-items: center;
