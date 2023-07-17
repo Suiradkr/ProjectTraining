@@ -3,6 +3,21 @@ body {
   margin: 0px;
 }
 
+.adamInfo {
+  width: 231px;
+  padding-left: 350px;
+  padding-top: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  align-items: center;
+  font-size: 15pt;
+}
+
+.adamImg {
+  width: 231px;
+  height: 308px;
+}
+
 .patterns {
   width: 100vw;
   height: 100vw;
